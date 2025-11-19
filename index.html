@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>accrodienly – become 67</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Inter:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>accrodienly</h1>
+    <p class="subtitle">upload your soul. become 67.</p>
 
+    <div class="upload-zone" id="dropZone">
+      <input type="file" id="fileInput" accept="image/*" />
+      <p>drag image here or click</p>
+    </div>
+
+    <div class="canvases">
+      <canvas id="original"></canvas>
+      <div class="arrow">⟹</div>
+      <canvas id="result"></canvas>
+    </div>
+
+    <button id="startBtn" disabled>TRANSFORM INTO 67</button>
+    <div class="progress" id="progress">0%</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
